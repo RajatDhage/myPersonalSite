@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(197, 193, 193);
+    border-width: 7px;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+h1{
+    font-size: 5.625rem; /*1em == 16px == 100% (1rem == 1em , rem == root em, it will not change its size even if we change size in any other property*/ /*always mention sizes in % and not in px*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 1.5;
+}       
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+.dev{
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.topContainer{ /*or .topContainer will also be fine*/
+    padding-top: 100px;
+    background-color: #DAFFFB;
+    position: relative;
+} 
+
+.middleContainer{   
+    margin: 50px 0;
+}
+
+.bottomContainer{
+    
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+}
+
+.mountain{
+    position: relative;
+    top: 40px;
+}   
+
+.developer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* font-weight: normal; */
+}
+
+.name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    font-weight: medium;
+}
+
+.Code1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.tempImg{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+/* 
+.btn{
+    background: #66BFBF;
+    border-radius: 8%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 50px;
+} */
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    background: #30E3CB;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+.bottomContainer{
+    background-color: #66BFBF;
+    padding: 50px 0 10px;
+}
+
+.footer-link{
+    font-size: large;
+    padding: 20px;
+    color: #178084;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 1rem;    /* 0.75rem == 12px */
+    padding: 20px 0 0 0;
+}
